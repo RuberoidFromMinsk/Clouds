@@ -1,0 +1,33 @@
+[main] INFO com.sap.di.ext.mta.proc.DescriptorProcessorImpl - MTA manifest processing on 0 threads
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - arguments: [--build-target=CF, build]
+[main] INFO com.sap.di.ext.mta.cli.CliExecutor - Archive path is /home/andrei/Downloads/HiMTA_03/HiMTA_04/backend/backend.mtar
+[main] DEBUG com.sap.di.ext.mta.cli.CliBuildExecutor - Starting MTA build
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignDescriptor$$impl0 for bean interface com.sap.di.ext.mta.dto.DesignDescriptor
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DesignModule$$impl1 for bean interface com.sap.di.ext.mta.dto.DesignModule
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.ProvidedSymbol$$impl2 for bean interface com.sap.di.ext.mta.dto.ProvidedSymbol
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.RequiredSymbol$$impl3 for bean interface com.sap.di.ext.mta.dto.RequiredSymbol
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.Resource$$impl4 for bean interface com.sap.di.ext.mta.dto.Resource
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Processing MTA lev_backend
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.proc.ModuleBuildDependency$$impl5 for bean interface com.sap.di.ext.mta.proc.ModuleBuildDependency
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend
+[main] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: created 6 verification tasks
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: started symbol resource[lev_hdi_last]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: finished symbol resource[lev_hdi_last]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: started symbol resource[lev_uaa_last]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: finished symbol resource[lev_uaa_last]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: started symbol resource[lev_dest_last]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: finished symbol resource[lev_dest_last]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: started symbol resource[lev_conn_last]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: finished symbol resource[lev_conn_last]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: started symbol module[lev_db]
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'lev_db': command timeout is 300 seconds
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'lev_db': command output file is /home/andrei/Downloads/HiMTA_03/HiMTA_04/backend/.mta/modulebuild13460533267443024848.txt
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'lev_db': invoking command [npm, install, --production]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: finished symbol module[lev_db]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: started symbol module[lev_srv]
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'lev_srv': command timeout is 300 seconds
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'lev_srv': command output file is /home/andrei/Downloads/HiMTA_03/HiMTA_04/backend/.mta/modulebuild949382901265117472.txt
+[pool-1-thread-1] DEBUG com.sap.di.ext.mta.cli.CommandHelper - Module 'lev_srv': invoking command [npm, install, --production]
+[pool-1-thread-1] INFO com.sap.di.ext.mta.proc.ProcessingRun - Verifying MTA lev_backend: finished symbol module[lev_srv]
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DeploymentDescriptor$$impl6 for bean interface com.sap.di.ext.mta.dto.DeploymentDescriptor
+[main] INFO com.sap.di.beans.DynamicBeans - Created implementation class com.sap.di.ext.mta.dto.DeploymentModule$$impl7 for bean interface com.sap.di.ext.mta.dto.DeploymentModule
